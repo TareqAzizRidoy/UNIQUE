@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Libre Franklin', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+/* header section start */
+
+/* nav bar start */
+
+.header{
+    width: 100%;
+    background: url("../images/Hero.png") center top no-repeat;
+    background-size: cover;
+}
+.header .bg-light{
+    background: transparent !important;
+}
+.header .navbar-brand{
+    margin: 0px;
+}
+.header .bg-light img{
+    width: 120px;
+}
+.header .navbar-light .navbar-nav .nav-link.active{
+    color: #511de5;
+    background: url("../images/hr.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header .navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 0px 15px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+    color: #511de5;
+    background: url("../images/hr.png") center bottom no-repeat;
+    background-size: contain;
+}
+.header .d-flex .btn-info{
+    color: #fff;
+    background: linear-gradient(to right, #511de5, #0a8efc);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 6px 30px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 15px;
+    transition: 1s;
+}
+.header .d-flex .btn-info:hover, .header .d-flex .btn-info:focus{
+    color: #fff;
+    background: linear-gradient(to right, #0a8efc, #511de5);
+}
+
+/* nav bar start */
+
+/* banner start */
+
+.banner{
+    width: 100%;
+    padding: 150px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 120px 0px;
+    text-align: right;
+}
+.inner-banner h1{
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 55px;
+    color: #000;
+}
+.inner-banner h1 span{
+    color: #511de5;
+}
+.inner-banner .btn-primary{
+    color: #000;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 60px;
+    margin-top: 20px;
+    transition: 1s;
+}
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+    color: #f2f2f2;
+    background: linear-gradient(to right, #511de5, #0a8efc);
+}  
+.inner-banner .fa{
+    margin-left: 10px;
+}
+
+/* banner end */
+
+/* header section end */
+
+/* highlight section start */
+
+.highlight{
+    width: 100%;
+    background: url("../images/bnr.png") center top no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 0px;
+}
+.highlight img{
+    position: absolute;
+    width: 18%;
+    top: -45px;
+    left: 200px;
+}
+.highlight .inner-highlight h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+/* highlight section end */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+/******************code start*****************/
+
+    .header .navbar-light .navbar-nav .nav-link.active{
+        background: url("../images/hr.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+        background: url("../images/hr.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #511de5;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .banner{
+        width: 100%;
+        padding: 100px 0px;
+    }
+    .inner-banner h1{
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 40px;
+        color: #000;
+    }
+    .inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+        color: #f2f2f2;
+        background: linear-gradient(to right, #511de5, #0a8efc);
+    } 
+    .highlight{
+        padding: 30px 0px;
+    }
+    .highlight .inner-highlight h3{
+        font-size: 12px;
+    }
+    .highlight img{
+        width: 25%;
+        top: -28px;
+        left: 130px;
+    }
+
+/******************code end*****************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+/******************code start*****************/
+
+    .header .navbar-light .navbar-nav .nav-link.active{
+        background: url("../images/hr.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+        background: url("../images/hr.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #511de5;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .banner{
+        width: 100%;
+        padding: 100px 0px;
+    }
+    .inner-banner h1{
+        font-size: 35px;
+        font-weight: 800;
+        line-height: 40px;
+        color: #000;
+    }
+    .highlight .inner-highlight h3{
+        font-size: 18px;
+    }
+    .highlight img{
+        width: 25%;
+        top: -35px;
+        left: 190px;
+    }
+
+
+/******************code end*****************/
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+/******************code start*****************/
+    
+    .header .navbar-light .navbar-nav .nav-link.active{
+        background: url("../images/hr.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus{
+        background: url("../images/hr.png") left bottom no-repeat;
+        background-size: auto;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #511de5;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .banner{
+        width: 100%;
+        padding: 0px;
+    }
+    .inner-banner{
+        padding-right: 120px;
+        text-align: right;
+    }
+    .inner-banner h1{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 50px;
+        color: #000;
+    }
+    .inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus{
+        color: #f2f2f2;
+        background: linear-gradient(to right, #511de5, #0a8efc);
+    } 
+    .highlight{
+        padding: 20px 0px;
+    }
+    .highlight .inner-highlight h3{
+        font-size: 18px;
+    }
+    .highlight img{
+        width: 18%;
+        top: -38px;
+        left: 80px;
+    }
+
+/******************code end*****************/
+}
+
+/* header section end */
