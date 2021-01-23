@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body{
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
     line-height: 24px;
 }
@@ -137,6 +137,382 @@ a,a:hover{
 }
 
 /* highlight section end */
+
+/* feature section start */
+
+.feature{
+    width: 100%;
+    padding: 100px 0px 60px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 80px;
+    background: url(../images/bg.png) center bottom no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.feature .inner-feature h1{
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.feature .inner-feature p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000;
+    margin: 0px;
+}
+.feature .second-feature{
+    width: 100%;
+    padding: 60px 0px 80px;
+}
+.feature .second-feature p .large{
+    font-size: 90px;
+    font-weight: 800;
+    background: linear-gradient(to right, #511de5, #0a8efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.feature .second-feature p .small{
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.feature .inner-image{
+    width: 100%;
+    padding: 80px 0px 0px;
+}
+
+/* feature section end */
+
+/* intro section start */
+
+.intro{
+    width: 100%;
+    padding: 170px 0px;
+    background: url("../images/bg2.png") center top no-repeat;
+    background-size: cover;
+}
+.intro .qoute{
+    width: 100%;
+    background: url("../images/bnr2.png") center bottom no-repeat;
+    background-size: contain;
+    padding: 120px;
+}
+.intro .qoute p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #fff;
+    margin-left: 30px;
+}
+.intro .qoute h6{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 30px;
+}
+.intro .inner-intro{
+    width: 100%;
+    padding: 90px 0px;
+}
+.intro .inner-intro h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: #000;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.intro .inner-intro a{
+    color: #000;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 60px;
+    transition: 1s;
+}
+.intro .inner-intro a:hover, .intro .inner-intro a:focus{
+    color: #f2f2f2;
+    background: linear-gradient(to right, #511de5, #0a8efc);
+}
+.intro .inner-intro .fa{
+    margin-left: 10px;
+}
+
+/* intro section end */
+
+/* efficiency section start */
+
+.efficiency{
+    width: 100%;
+    padding: 40px 120px 80px;
+}
+.efficiency .inner-efficiency{
+    width: 100%;
+    padding: 100px 0px 0px;
+}
+.efficiency .inner-efficiency h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: #000;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.efficiency .inner-efficiency p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000;
+    margin-bottom: 20px;
+}
+.efficiency .first-efficiency p img{
+    width: 5%;
+    height: 5%;
+}
+.efficiency .first-efficiency p span{
+    font-weight: 600;
+    margin-left: 15px;
+} 
+.efficiency .first-efficiency a{
+    color: #fff;
+    background: linear-gradient(to right, #511de5, #0a8efc);
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 60px;
+    margin-top: 30px;
+    transition: 1s;
+} 
+.efficiency .first-efficiency .fa{
+    margin-left: 10px;
+}
+.efficiency .first-efficiency a:hover, .efficiency .first-efficiency a:focus{
+    color: #000;
+    background: #f2f2f2;
+}
+ 
+/* efficiency section end */
+
+/* layer section start */
+
+.layer{
+    width: 100%;
+    padding: 80px 0px;
+    background: #fcfcfc;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+}
+.layer .first-layer{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 50px;
+}
+.layer .first-layer h1{
+    font-size: 35px;
+    font-weight: 800;
+    color: #000;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.layer .first-layer p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000;
+}
+.layer .three-cards{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 20px 0px 0px;
+}
+.layer .three-cards .card{
+    border: none;
+    background: transparent !important;
+    border-radius: 0px;
+}
+.layer .three-cards .card-middle{
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+}
+.layer .three-cards .card-img-top{
+    width: 40%;
+    margin: 10px auto;
+}
+.layer .three-cards .card-body h5{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.layer .three-cards .card-body p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000;
+}
+
+/* layer section end */
+
+/* chester section start */
+
+.chester{
+    width: 100%;
+    padding: 80px 180px;
+}
+.chester .ins-qoute{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.chester .ins-qoute h1{
+    font-size: 45px;
+    font-weight: 800;
+    color: #000;
+    text-transform: capitalize;
+}
+.chester .full-box{
+    width: 100%;
+    padding: 60px 10px 20px;
+    background: url("../images/01.png") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 0px 0px 15px #ccc ;
+    opacity: 0.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.chester .full-box:hover{
+    opacity: 1;
+}
+.chester .full-box .speech{
+    width: 100%;
+    padding: 40px 5px 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.chester .full-box .speech h4{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 50px;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.chester .full-box .speech h4:hover, .chester .full-box .speech h4:focus{
+    background: linear-gradient(to right, #511de5, #0a8efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.chester .inner-speech{
+    width: 100%;
+    padding: 30px 0px 10px;
+}
+.chester .inner-speech h5{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #000;
+}
+.chester .inner-speech p{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #ccc;
+}
+
+/* chester section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg4.png") bottom center no-repeat;
+    background-size: cover;
+}
+.footer .box{
+    width: 100%;
+    padding: 100px;
+    box-shadow: 0px 0px 10px #ccc;
+    background: #fff;
+}
+.footer .questions{
+    width: 100%;
+    text-align: center;
+}
+.footer .questions h1{
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 150px;
+}
+.footer .accordion{
+    width: 100%;
+    padding: 0px 40px;
+}
+.footer .accordion .accordion-item .accordion-header .accordion-button{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.footer .accordion .accordion-item .accordion-header .accordion-button:hover, .footer .accordion .accordion-item .accordion-header .accordion-button:focus{
+    background: linear-gradient(to right, #511de5, #0a8efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer .accordion-body{
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer .bottom-link{
+    width: 100%;
+    padding: 100px 63px 0px;
+}
+.footer .bottom-nav{
+    width: 100%;
+}
+.footer .bottom-nav li{
+    list-style: none;
+    display: inline-block;
+}
+.footer .bottom-nav li a{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    margin-right: 10px;
+}
+.footer .copyright{
+    width: 100%;
+    padding: 100px 0px 0px 130px;
+}
+.footer .copyright p{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+/* footer section end */
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
